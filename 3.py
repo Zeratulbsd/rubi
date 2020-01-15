@@ -23,7 +23,7 @@ def atbash(palabra):
                 Buff += V1[a]
     print (Buff)
  
-atbash(input("Ingresa tu texto a cifrar "))
+#atbash("criptografia")
 
-#rot13(input("Ingresa tu texto a cifrar "))
+rot13(input("Texto a cifrar "))
  

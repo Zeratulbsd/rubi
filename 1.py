@@ -1,4 +1,4 @@
-from VALID import ns, OKI
+from aver import ns, OKI
 import subprocess
 
 while True:
@@ -6,7 +6,7 @@ while True:
 
     abc="ABCDEFGHIJKLMNQOPQRSTUVWXYZabcdefghijklmnopqrstuwxyz" 
 
-    k=OKI(input("Valor de desplazamiento: "))
+    k=OKI(3)
     cifrad=""
     
     for c in texto:
@@ -16,7 +16,4 @@ while True:
             cifrad+=c
 
     print("Texto cifrado: ",cifrad)
-    conti=ns(input("¿Desea acontinuar?: "))
-    if conti==("n"):
-        break
-    #subprocess.call(["cmd.exe","/C","cls"])
+    

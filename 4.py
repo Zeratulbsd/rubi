@@ -1,4 +1,4 @@
-2import math
+import math
 
 # Función principal
 def main():

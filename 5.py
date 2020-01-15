@@ -21,16 +21,16 @@ elif len(mensaje)==len(clave_original):	# Si la longitud del mensaje es igual qu
 	clave = clave_original	# Se guarda la clave tal cual se encuentra en 'clave_original' #
 
 else:
-	print ('Ha ocurrido un error inesperado. Terminando ejecución...')
+	print (' Terminando ejecucion')
 	sys.exit(1)
 
 
-print ('Mensaje original: ' + mensaje)
-print ('Palabra clave: ' + clave_original)
+print ('Mensaje : ' + mensaje)
+print ('clave: ' + clave_original)
 print ()
 
 
-print ('Cifrando...')
+print ('Cifrado')
 for i in range(len(mensaje)):
 	x = abecedario.find(mensaje[i])	# Se guarda la posición del caracter del mensaje en el abecedario
 	y = abecedario.find(clave[i])	# Se guarda la posición del caracter de la clave en el abecedario
@@ -38,7 +38,7 @@ for i in range(len(mensaje)):
 	modulo = suma%len(abecedario)	# Se calcula el módulo de la suma respecto a la longitud del abecedario
 	cifrado += abecedario[modulo]	# Se concatena el caracter cifrado con 'cifrado'
 
-print ('Mensaje cifrado: ' + cifrado)
+print (' cifrado: ' + cifrado)
 print ()
 	
 
@@ -50,6 +50,6 @@ for i in range(len(cifrado)):
 	modulo = resta%len(abecedario)	# Se calcula el módulo de la resta respecto a la longitud del abecedario
 	descifrado += abecedario[modulo]	# Se concatena el caracter descifrado con 'descifrado'
 
-print ('Mensaje descifrado: ' + descifrado)
+print (' descifrado: ' + descifrado)
 
 sys.exit(0)
