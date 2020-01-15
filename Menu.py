@@ -4,7 +4,7 @@ import subprocess
 while True:
     texto=input("Tu texto: ")
 
-   abc="ABCDEFGHIJKLMNQOPQRSTUVWXYZabcdefghijklmnopqrstuwxyz" 
+    abc="ABCDEFGHIJKLMNQOPQRSTUVWXYZabcdefghijklmnopqrstuwxyz" 
 
     k=OKI(input("Valor de desplazamiento: "))
     cifrad=""

@@ -10,6 +10,7 @@ while aver != 6 and aver <7:
    print("2 transposicion")
    print("3 rot13")
    print("4 cesar")
+   print("5 atash")
    print("6 salir")
    aver=int(input("Ingresa tu opcion "))
    if aver == 1:  
@@ -17,9 +18,10 @@ while aver != 6 and aver <7:
    if aver == 2:  
        os.system("transposicion.py")
    if aver == 3:  
-       os.system("pythn rot13.py")
+      os.system("python rot13.py")
+
    if aver == 4:  
        os.system("python Menu.py")
    if aver == 5:  
-       os.system("python vigenere.py")
+       os.system("python ash.py")
    
