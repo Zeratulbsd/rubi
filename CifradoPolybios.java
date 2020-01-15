@@ -26,5 +26,4 @@ public class CifradoPolybios {
     public static void main(String[] args) {
         System.out.println(new CifradoPolybios().cifrar("Wikipedia la enciclopedia libre"));
     }
-}
- 
+} 

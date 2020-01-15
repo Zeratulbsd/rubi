@@ -4,7 +4,7 @@ import subprocess
 while True:
     texto=input("Tu texto: ")
 
-    abc="ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuwxyz" 
+   abc="ABCDEFGHIJKLMNQOPQRSTUVWXYZabcdefghijklmnopqrstuwxyz" 
 
     k=OKI(input("Valor de desplazamiento: "))
     cifrad=""
@@ -19,4 +19,4 @@ while True:
     conti=ns(input("¿Desea acontinuar?: "))
     if conti==("n"):
         break
-    subprocess.call(["cmd.exe","/C","cls"])
+    #subprocess.call(["cmd.exe","/C","cls"])
